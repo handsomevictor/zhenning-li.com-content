@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02bc462a-a759-48d4-81a5-a33309c3e241" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main_convert_songs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu_random/songs/convert_mp4_to_mp3/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu_random/songs/victor北京北京.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu_random/songs/victor算什么男人2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random/songs/victor北京北京.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/menu_random/songs/victor北京北京.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random/songs/victor算什么男人.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/menu_random/songs/victor算什么男人.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random/songs/victor算什么男人2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/menu_random/songs/victor算什么男人2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu_random/songs/victor北京北京.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu_random/songs/victor算什么男人2.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +66,7 @@
       <updated>1691528133277</updated>
       <workItem from="1691528134433" duration="328000" />
       <workItem from="1691528473830" duration="1162000" />
-      <workItem from="1691529647879" duration="298000" />
+      <workItem from="1691529647879" duration="896000" />
     </task>
     <servers />
   </component>
