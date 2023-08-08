@@ -6,6 +6,7 @@ ffmpeg (brew install ffmpeg)
 
 # How to convert the songs from mp4 to mp3
 
+First download mp4 file from 全民K歌, then move the files to the folder: `.menu_random/songs/convert_mp4_to_mp3/`
 In root directory, run `main_convert_songs.py`
 
 
