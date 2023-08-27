@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02bc462a-a759-48d4-81a5-a33309c3e241" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto/b_spline_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto/b_spline_performance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto/crypto_data/binc_btc_usdt_ohlcvvwap.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto/crypto_data/binc_btc_usdt_trade.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto/download_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto/b_spline_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto/b_spline_performance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +110,7 @@
       <workItem from="1691528473830" duration="1162000" />
       <workItem from="1691529647879" duration="3346000" />
       <workItem from="1693172085189" duration="3864000" />
-      <workItem from="1693175965554" duration="368000" />
+      <workItem from="1693175965554" duration="1451000" />
     </task>
     <servers />
   </component>
@@ -142,7 +136,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/zhenning_li_com_content$main_convert_songs.coverage" NAME="main_convert_songs Coverage Results" MODIFIED="1691534224879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/zhenning_li_com_content$b_spline_performance.coverage" NAME="b_spline_performance Coverage Results" MODIFIED="1693176311989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto" />
+    <SUITE FILE_PATH="coverage/zhenning_li_com_content$b_spline_performance.coverage" NAME="b_spline_performance Coverage Results" MODIFIED="1693177410065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto" />
     <SUITE FILE_PATH="coverage/zhenning_li_com_content$b_spline_model.coverage" NAME="b_spline_model Coverage Results" MODIFIED="1693174086176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto" />
     <SUITE FILE_PATH="coverage/zhenning_li_com_content$main.coverage" NAME="main Coverage Results" MODIFIED="1691529811306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/menu_random/songs/convert_mp4_to_mp3" />
     <SUITE FILE_PATH="coverage/zhenning_li_com_content$download_data.coverage" NAME="download_data Coverage Results" MODIFIED="1693172961833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto" />

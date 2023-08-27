@@ -8,7 +8,9 @@ import matplotlib.font_manager
 from random_failed_trials.b_spline_in_crypto.b_spline_model import get_prediction_result, get_processed_data
 
 
-def simple_backtest(data, results_final, strategy=None):
+def simple_backtest(data, results_final, strategy=None,
+                    transaction_fee_percentage: float = 0,
+                    transaction_fee_abs: float = 0):
     """
     确保data比results_final的长度多1
     """
@@ -37,6 +39,14 @@ def simple_backtest(data, results_final, strategy=None):
 
             # 在下一期进行反向操作以平仓
             single_return = (data[i + 1] - data[i]) * position
+
+            if transaction_fee_percentage > 0 or transaction_fee_abs > 0:
+                calculated_fee = abs(position) * data[i] * transaction_fee_percentage
+                transaction_fee = max(transaction_fee_abs, calculated_fee)
+            else:
+                transaction_fee = 0
+
+            single_return -= transaction_fee
             if position != 0:
                 total_trades += 1
                 if single_return > 0:
@@ -78,7 +88,7 @@ def simple_backtest(data, results_final, strategy=None):
 
 
 if __name__ == '__main__':
-    data = get_processed_data(minmax=True, data_type='ohlcvvwap', ohlcvvwap_interval='1m')
+    data = get_processed_data(minmax="Nothing", data_type='ohlcvvwap', ohlcvvwap_interval='1m')
     print(data.shape)
     params = {
         "data": data,
@@ -94,5 +104,11 @@ if __name__ == '__main__':
     data = np.array(data['price'].values[data.shape[0] - results_final.shape[1] - 1:])  # 这里-1只是因为当前点的实际值从这里开始
     results_final = np.array(results_final)[0]
     print(f'data shape is {data.shape}, results_final shape is {results_final.shape}')
+    print(data[:10])
 
-    simple_backtest(data, results_final, strategy='simple')
+    transaction_fee_percentage = 0.00001
+    transaction_fee_abs = 0.2
+    returns, winning_rates = simple_backtest(data, results_final, strategy='simple',
+                                             transaction_fee_percentage=transaction_fee_percentage,
+                                             transaction_fee_abs=transaction_fee_abs)
+    print(f'First 10 returns are {returns[:10]}, winning_rates is {winning_rates}')
