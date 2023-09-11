@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02bc462a-a759-48d4-81a5-a33309c3e241" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/menu_random/books/combine_png_pdf/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +112,7 @@
       <workItem from="1693172085189" duration="3864000" />
       <workItem from="1693175965554" duration="1628000" />
       <workItem from="1693214618088" duration="526000" />
+      <workItem from="1694272625364" duration="517000" />
     </task>
     <servers />
   </component>
@@ -138,7 +140,7 @@
     <SUITE FILE_PATH="coverage/zhenning_li_com_content$main_convert_songs.coverage" NAME="main_convert_songs Coverage Results" MODIFIED="1691534224879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zhenning_li_com_content$b_spline_performance.coverage" NAME="b_spline_performance Coverage Results" MODIFIED="1693177410065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto" />
     <SUITE FILE_PATH="coverage/zhenning_li_com_content$b_spline_model.coverage" NAME="b_spline_model Coverage Results" MODIFIED="1693174086176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto" />
-    <SUITE FILE_PATH="coverage/zhenning_li_com_content$main.coverage" NAME="main Coverage Results" MODIFIED="1691529811306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/menu_random/songs/convert_mp4_to_mp3" />
     <SUITE FILE_PATH="coverage/zhenning_li_com_content$download_data.coverage" NAME="download_data Coverage Results" MODIFIED="1693172961833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_failed_trials/b_spline_in_crypto" />
+    <SUITE FILE_PATH="coverage/zhenning_li_com_content$main.coverage" NAME="main Coverage Results" MODIFIED="1694272916986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/menu_random/books/combine_png_pdf" />
   </component>
 </project>
